@@ -22,7 +22,7 @@ function repeater(str, options) {
     addition = "",
     additionRepeatTimes = 1,
     additionSeparator = "|",
-  } = options;
+  } = options; //значения по-умолчанию для пустых параметров объекта options. Обращаться к объектом при этом следует без названия объекта
   let result = "";
   let frame;
   let additionPart = addition;
